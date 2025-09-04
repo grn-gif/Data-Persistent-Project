@@ -1,19 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Paddle : MonoBehaviour
+public class Paddle : MonoBehaviour//Our Game Script
 {
     public float Speed = 2.0f;
     private float MaxMovement = 1.89f;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+// Update is called once per frame
     void Update()
     {
         float input = Input.GetAxis("Horizontal");

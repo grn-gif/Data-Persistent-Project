@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class DeathZone : MonoBehaviour
+public class DeathZone : MonoBehaviour//Our Game Script
 {
     public MainManager Manager;
 
