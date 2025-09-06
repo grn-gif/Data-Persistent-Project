@@ -1,11 +1,14 @@
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour//Beta Script Folder
 {
     public static GameManager GM { get; private set; }
+    public InputField InputName;
 
     private string playerName;
+    private int score;
 
     [System.Serializable]
     class SaveData

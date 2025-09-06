@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using UnityEditor;
 #endif
 
-public class ScenesManager : MonoBehaviour//Beta Script Folder
+public class ScenesManager : MonoBehaviour//Our Game Script
 {
     public static ScenesManager SM { get; private set; }
 
